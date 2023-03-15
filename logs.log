@@ -4643,3 +4643,121 @@ Alternately, you can install this by running `pip install pycaret[models]`
                                num_leaves=30, random_state=42, reg_alpha=0.001,
                                reg_lambda=5))])
 2023-03-10 01:48:45,002:INFO:save_model() successfully completed......................................
+2023-03-10 01:50:40,722:INFO:Initializing load_model()
+2023-03-10 01:50:40,722:INFO:load_model(model_name=concrete_ltgm.pkl, platform=None, authentication=None, verbose=True)
+2023-03-10 01:50:54,032:INFO:Initializing load_model()
+2023-03-10 01:50:54,033:INFO:load_model(model_name=concrete_ltgm, platform=None, authentication=None, verbose=True)
+2023-03-10 02:19:35,258:INFO:Initializing evaluate_model()
+2023-03-10 02:19:35,259:INFO:evaluate_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002669DB752A0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['cement', 'slag', 'ash', 'water',
+                                             'superplastic', 'coarseAgg',
+                                             'fineAgg', 'age'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LGBMRegressor(bagging_fraction=0.8, bagging_freq=3,
+                               feature_fraction=0.8, learning_rate=0.2,
+                               min_child_samples=6, min_split_gain=0.6,
+                               num_leaves=30, random_state=42, reg_alpha=0.001,
+                               reg_lambda=5))]), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2023-03-10 02:19:35,285:INFO:Initializing plot_model()
+2023-03-10 02:19:35,285:INFO:plot_model(plot=pipeline, fold=KFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['cement', 'slag', 'ash', 'water',
+                                             'superplastic', 'coarseAgg',
+                                             'fineAgg', 'age'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LGBMRegressor(bagging_fraction=0.8, bagging_freq=3,
+                               feature_fraction=0.8, learning_rate=0.2,
+                               min_child_samples=6, min_split_gain=0.6,
+                               num_leaves=30, random_state=42, reg_alpha=0.001,
+                               reg_lambda=5))]), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x000002669DB752A0>, system=True)
+2023-03-10 02:19:35,285:INFO:Checking exceptions
+2023-03-10 02:19:35,287:INFO:Preloading libraries
+2023-03-10 02:19:35,301:INFO:Copying training dataset
+2023-03-10 02:19:35,301:INFO:Plot type: pipeline
+2023-03-10 02:19:35,533:INFO:Visual Rendered Successfully
+2023-03-10 02:19:35,652:INFO:plot_model() successfully completed......................................
+2023-03-10 02:19:45,016:INFO:Initializing plot_model()
+2023-03-10 02:19:45,016:INFO:plot_model(plot=residuals, fold=KFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['cement', 'slag', 'ash', 'water',
+                                             'superplastic', 'coarseAgg',
+                                             'fineAgg', 'age'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LGBMRegressor(bagging_fraction=0.8, bagging_freq=3,
+                               feature_fraction=0.8, learning_rate=0.2,
+                               min_child_samples=6, min_split_gain=0.6,
+                               num_leaves=30, random_state=42, reg_alpha=0.001,
+                               reg_lambda=5))]), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x000002669DB752A0>, system=True)
+2023-03-10 02:19:45,017:INFO:Checking exceptions
+2023-03-10 02:19:45,019:INFO:Preloading libraries
+2023-03-10 02:19:45,030:INFO:Copying training dataset
+2023-03-10 02:19:45,030:INFO:Plot type: residuals
+2023-03-10 02:19:45,208:INFO:Fitting Model
+2023-03-10 02:19:45,301:INFO:Scoring test/hold-out set
+2023-03-10 02:19:46,123:INFO:Visual Rendered Successfully
+2023-03-10 02:19:46,231:INFO:plot_model() successfully completed......................................
+2023-03-10 02:21:28,619:INFO:Initializing plot_model()
+2023-03-10 02:21:28,619:INFO:plot_model(plot=feature, fold=KFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['cement', 'slag', 'ash', 'water',
+                                             'superplastic', 'coarseAgg',
+                                             'fineAgg', 'age'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LGBMRegressor(bagging_fraction=0.8, bagging_freq=3,
+                               feature_fraction=0.8, learning_rate=0.2,
+                               min_child_samples=6, min_split_gain=0.6,
+                               num_leaves=30, random_state=42, reg_alpha=0.001,
+                               reg_lambda=5))]), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x000002669DB752A0>, system=True)
+2023-03-10 02:21:28,619:INFO:Checking exceptions
+2023-03-10 02:21:28,621:INFO:Preloading libraries
+2023-03-10 02:21:28,629:INFO:Copying training dataset
+2023-03-10 02:21:28,629:INFO:Plot type: feature
+2023-03-10 02:21:28,630:WARNING:No coef_ found. Trying feature_importances_
+2023-03-10 02:21:28,855:INFO:Visual Rendered Successfully
+2023-03-10 02:21:28,962:INFO:plot_model() successfully completed......................................
+2023-03-10 02:23:03,590:INFO:Initializing plot_model()
+2023-03-10 02:23:03,590:INFO:plot_model(plot=error, fold=KFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=Pipeline(memory=FastMemory(location=C:\Users\juud0\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['cement', 'slag', 'ash', 'water',
+                                             'superplastic', 'coarseAgg',
+                                             'fineAgg', 'age'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 LGBMRegressor(bagging_fraction=0.8, bagging_freq=3,
+                               feature_fraction=0.8, learning_rate=0.2,
+                               min_child_samples=6, min_split_gain=0.6,
+                               num_leaves=30, random_state=42, reg_alpha=0.001,
+                               reg_lambda=5))]), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x000002669DB752A0>, system=True)
+2023-03-10 02:23:03,590:INFO:Checking exceptions
+2023-03-10 02:23:03,594:INFO:Preloading libraries
+2023-03-10 02:23:03,606:INFO:Copying training dataset
+2023-03-10 02:23:03,606:INFO:Plot type: error
+2023-03-10 02:23:03,736:INFO:Fitting Model
+2023-03-10 02:23:03,736:INFO:Scoring test/hold-out set
+2023-03-10 02:23:04,127:INFO:Visual Rendered Successfully
+2023-03-10 02:23:04,255:INFO:plot_model() successfully completed......................................
