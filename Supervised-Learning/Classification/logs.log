@@ -6355,3 +6355,24 @@ Please also refer to the documentation for alternative solver options:
                random_state=42, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
                subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
 2023-03-15 17:47:32,648:INFO:tune_model() successfully completed......................................
+2023-03-15 17:52:40,553:INFO:Initializing predict_model()
+2023-03-15 17:52:40,553:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C9F926F5E0>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=42, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002C9FDE11510>)
+2023-03-15 17:52:40,553:INFO:Checking exceptions
+2023-03-15 17:52:40,554:INFO:Preloading libraries
+2023-03-15 17:52:40,651:WARNING:c:\Users\juud0\miniconda3\envs\pip310\lib\site-packages\sklearn\metrics\_classification.py:1396: UserWarning: Note that pos_label (set to 'Gentoo') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+2023-03-15 17:52:40,654:WARNING:c:\Users\juud0\miniconda3\envs\pip310\lib\site-packages\sklearn\metrics\_classification.py:1396: UserWarning: Note that pos_label (set to 'Gentoo') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+2023-03-15 17:52:40,656:WARNING:c:\Users\juud0\miniconda3\envs\pip310\lib\site-packages\sklearn\metrics\_classification.py:1396: UserWarning: Note that pos_label (set to 'Gentoo') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+2023-03-15 17:52:40,658:WARNING:c:\Users\juud0\miniconda3\envs\pip310\lib\site-packages\sklearn\metrics\_classification.py:1396: UserWarning: Note that pos_label (set to 'Gentoo') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+2023-03-15 17:52:40,660:WARNING:c:\Users\juud0\miniconda3\envs\pip310\lib\site-packages\sklearn\metrics\_classification.py:1396: UserWarning: Note that pos_label (set to 'Gentoo') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+2023-03-15 17:52:40,662:WARNING:c:\Users\juud0\miniconda3\envs\pip310\lib\site-packages\sklearn\metrics\_classification.py:1396: UserWarning: Note that pos_label (set to 'Gentoo') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
