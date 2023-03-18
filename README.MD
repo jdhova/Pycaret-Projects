@@ -1,17 +1,22 @@
 
 
-###  A collection of Machine learning models built with Pycaret.
-### Models include Superviced (Regression and Classification (Binary 0 and 1)) and Unsuperviced leaning models (Clustering)
+## A collection of Machine learning models built with Pycaret.
+
+###  Models include 
+1.  Superviced learning:  Regression and Classification (Binary 0 and 1) and 
+2.  Unsuperviced leaning:  (Clustering)
+
 ### Datasets include
 
 ### Superviced
-#### House prices and concrete production for Regression predicting coontineous values
-#### Penguins (with the species as a terget we are predicting a binary if we can  train the model to guess the penguin specie)
-####  Diabetes detection for Clustering (0 and 1 Binary) based on the db we are predicting of the person is diabetic or not
+1.   Regression:   concrete production, predicting continuous. values
+2.   Regression: House prices, predicting continuous values
+3.   Classification : Penguins (0 and 1 Binary) where we predict the Pengiuns' Specie
+4.   Classification : Diabetes detection  (0 and 1 Binary) where we predict if the person has diabetis or not
 
 
 ### Unsuperviced 
-#### Penguins(Clustering) detemining or guessing the bengine breeds based on features 
+1.   Penguins(Clustering) detemining or guessing the bengine breeds based on features 
 
 
 ###  Pycaret Notes
