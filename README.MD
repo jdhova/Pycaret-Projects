@@ -43,3 +43,12 @@ df.apply(minmax).T
 beta_model['pct_err'] = (abs(beta_model['strength'] - beta_model['prediction_label'])) / beta_model['strength']
 
 ```
+### pycaret 3.0 env and instalation 
+
+```
+conda create --name pc30 python=3.10
+
+conda remove --name pc30 -all  to remove
+
+pip intall pycaret[all]
+```
