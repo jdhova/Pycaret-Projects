@@ -51,4 +51,8 @@ conda create --name pc30 python=3.10
 conda remove --name pc30 -all  to remove
 
 pip intall pycaret[all]
+python 3.10.9
+
+conda env list to check env list
+
 ```
