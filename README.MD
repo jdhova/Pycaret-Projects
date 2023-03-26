@@ -48,11 +48,22 @@ beta_model['pct_err'] = (abs(beta_model['strength'] - beta_model['prediction_lab
 ```
 conda create --name pc30 python=3.10
 
-conda remove --name pc30 -all  to remove
+conda remove --name pc30 --all  to remove
 
 pip intall pycaret[all]
 python 3.10.9
 
 conda env list to check env list
+
+https://askubuntu.com/questions/1026383/why-does-base-appear-in-front-of-my-terminal-prompt
+
+conda config --show | grep auto_activate_base
+
+
+conda config --set auto_activate_base False
+source ~/.bashrc
+
+conda config --set auto_activate_base True
+source ~/.bashrc
 
 ```
